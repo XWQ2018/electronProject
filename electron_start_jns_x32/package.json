@@ -1,0 +1,22 @@
+{
+    "name": "jns_edu_x32",
+    "version": "1.0.0",
+    "description": "广州朗讯猛虎汽车检测有限公司旗下产品",
+    "main": "main.js",
+    "scripts": {
+        "start": "electron .",
+        "build": "electron-packager . jns_edu_x32 --platform=win32 --arch=ia32 --icon=./favicon.ico --out=../package/electron --asar --app-version=1.0.0 --extra-resource=./flash32 --extra-resource=./favicon.ico --overwrite"
+    },
+    "keywords": [
+        "Electron",
+        "quick",
+        "start",
+        "tutorial",
+        "demo"
+    ],
+    "author": "广州朗讯猛虎汽车检测有限公司",
+    "devDependencies": {
+        "electron": "^6.0.0",
+        "electron-packager": "^13.0.0"
+    }
+}

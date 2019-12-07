@@ -1,0 +1,5 @@
+./*/node_modules/
+electron_start_jns_x32/node_modules/
+electron_start_jns_x64/node_modules/
+electron_start_laijing_x32/node_modules/
+electron_start_laijing_x64/node_modules/
