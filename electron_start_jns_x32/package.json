@@ -16,7 +16,7 @@
     ],
     "author": "广州朗讯猛虎汽车检测有限公司",
     "devDependencies": {
-        "electron": "^6.0.0",
+        "electron": "^13.6.6",
         "electron-packager": "^13.0.0"
     }
 }
